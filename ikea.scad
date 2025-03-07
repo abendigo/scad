@@ -9,11 +9,11 @@ drawer_clearance = 5;
 gridfinity = 42;
 bin_depth = 45.5;
 
-left_thickness = 0.75;
-left_lip_thickness = 0.75;
+left_thickness = 0.5;
+left_lip_thickness = 0.5;
 
-right_thickness = 0.75;
-right_lip_thickness = 0.75;
+right_thickness = 0.5;
+right_lip_thickness = 0.5;
 
 top_thickness = 1.5;
 top_lip_thickness = 1.5;
@@ -33,22 +33,22 @@ top = (gridfinity/2) + offset + (gridfinity*3);
 bottom = (gridfinity/2) - (gridfinity*4);
 
 
-topLeft_leftLip_length = 40;
-topLeft_topLip_length = 50;
+topLeft_leftLip_length = 35;
+topLeft_topLip_length = 35;
 
 topRight_rightLip_length = 35;
-topRight_topLip_length = 25;
+topRight_topLip_length = 35;
 
-bottomLeft_bottomLip_length = 50;
-bottomLeft_leftLip_length = 40;
+bottomLeft_bottomLip_length = 35;
+bottomLeft_leftLip_length = 35;
 
 bottomRight_rightLip_length = 35;
-bottomRight_bottomLip_length = 25;
+bottomRight_bottomLip_length = 35;
 
 lip_height_overlap = 10;
 lip_height = drawer_depth - height - drawer_clearance;
 
-triangle_leg = 25;
+triangle_leg = 15;
 
 // Tolereance for joining pieces
 fudge = .25;
